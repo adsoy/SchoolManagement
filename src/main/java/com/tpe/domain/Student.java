@@ -35,7 +35,7 @@ public class Student {
     private Integer grade;
 
     @Email(message = "Gecerli bir mail adresi giriniz.")
-    private String mail;
+    private String email;
 
     @Setter(AccessLevel.NONE)
     private LocalDate createDate = LocalDate.now();
